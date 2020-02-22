@@ -1,0 +1,45 @@
+.email_icon {
+    height: 2em;
+}
+
+.indent {
+    display: inline-block;
+}
+
+.menu_icon {
+    height: 2em;
+}
+
+.shop {
+    background-color: burlywood;
+    color: rgb(134, 63, 12);
+    text-align: center;
+}
+
+.shop__address {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+.shop__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop__name {
+    margin-bottom: 0px;
+    margin-top: 0.5em;
+}
+
+.shop__phone {
+    margin-top: 0px;
+}
+
+.shop__email {
+    text-decoration: none;
+}
+
+.shop__menu {
+    text-decoration: none;
+}

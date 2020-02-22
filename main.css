@@ -1,0 +1,24 @@
+@import "shop.css";
+body {
+    background-image: url("https://store-images.s-microsoft.com/image/apps.29972.14474337564596307.6c783b22-9460-4205-938c-2969961ed85c.aa21aff2-b2b2-411b-88bb-158187c6e238?mode=scale&q=90&h=1080&w=1920");
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pageHeader {
+    color: rgb(88, 41, 7);
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.shop {
+    border: 4.5px double bisque;
+    flex-basis: 15%;
+    margin: 0.5em;
+    padding: 0.25em;
+}
