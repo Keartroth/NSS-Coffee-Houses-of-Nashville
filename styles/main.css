@@ -1,4 +1,4 @@
-@import "shop.css";
+@import "./shop.css";
 body {
     background-image: url("https://store-images.s-microsoft.com/image/apps.29972.14474337564596307.6c783b22-9460-4205-938c-2969961ed85c.aa21aff2-b2b2-411b-88bb-158187c6e238?mode=scale&q=90&h=1080&w=1920");
 }
@@ -9,10 +9,18 @@ body {
     justify-content: space-evenly;
 }
 
-.pageHeader {
+header {
+    background-color: antiquewhite;
+    border-bottom: 2px solid rgb(88, 41, 7);
     color: rgb(88, 41, 7);
+    display: inline-block;
     font-size: 2em;
     margin-bottom: 0.5em;
+    padding: 0.5em 2em;
+    text-align: center;
+}
+
+#header {
     text-align: center;
 }
 
