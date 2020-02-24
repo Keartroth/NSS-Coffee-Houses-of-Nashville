@@ -133,14 +133,14 @@ const populateCafe = () => {
       </div>
     </div>`
   }
-  // document.getElementById("coffeeShop").innerHTML = coffeeHouses;
-  $("#coffeShop").html(coffeeHouses);
 
-  const showFunction = () => {
+  document.getElementById("coffeeShop").innerHTML = coffeeHouses;
+
+  const showHidden = () => {
     const element = document.getElementById("hidden");
     element.classList.remove("hide-me");
   }
-  showFunction();
+  showHidden();
 }
 
 $("#see-places").click(function () {
@@ -148,5 +148,7 @@ $("#see-places").click(function () {
   $("#see-places").toggle("#see-places");
 })
 
-
-  // $("#coffeShop").html(coffeeHouses);
+// $("#see-places").click(function () {
+//   populateCafe();
+//   $("#see-places").toggle("#see-places");
+// })
