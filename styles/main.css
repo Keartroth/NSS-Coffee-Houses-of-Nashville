@@ -24,9 +24,29 @@ header {
     text-align: center;
 }
 
+.hide-me {
+    visibility: hidden;
+}
+
+#see-places {
+    position: relative;
+}
+
 .shop {
     border: 4.5px double bisque;
     flex-basis: 15%;
     margin: 0.5em;
     padding: 0.25em;
+}
+
+#sleepy-coffee {
+    margin-top: 3em;
+}
+
+#wake-me {
+    color: bisque;
+    font-size: 30px;
+    left: 129px;
+    position: absolute;
+    top: 209px;
 }
