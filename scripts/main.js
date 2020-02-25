@@ -143,12 +143,7 @@ const populateCafe = () => {
   showHidden();
 }
 
-$("#see-places").click(function () {
+const clickEvent = () => {
   populateCafe();
-  $("#see-places").toggle("#see-places");
-})
-
-// $("#see-places").click(function () {
-//   populateCafe();
-//   $("#see-places").toggle("#see-places");
-// })
+  document.getElementById("see-places").classList.add("hide-me");
+}
