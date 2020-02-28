@@ -1,19 +1,3 @@
-// DO NOT TOUCH - EXAMPLE CODE
-
-// function populatePlaces() {
-//     var cards = ""
-
-//     for (var i = 0; i < placesPhoto.length ; i++) {
-//       cards += "<div class='card' style='width: 18rem;'><img src='" + placesPhoto[i] + "' class='card-img-top' alt='" + placesLocation[i] + "'><div class='card-body'><h5 class='card-title'>" + placesLocation[i] + "</h5><p class='card-text'>" + placesCaption[i] + "</p><a href='" + placesWebsite[i] + "' target='_blank' class='btn btn-primary'>Learn More</a></div></div>"
-//     }
-//     $("#output-places").html(cards);
-//   }
-
-//   $("#see-places").click(function() {
-//     populatePlaces();
-//     $("#see-places").toggle("#see-places");
-//   })
-
 const coffeList = [
   {
     shopName: "Cafe Ma'kai",
