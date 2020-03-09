@@ -9,18 +9,22 @@
 .shop {
     background-color: burlywood;
     color: rgb(134, 63, 12);
+    min-height: 150px;
+    position: relative;
     text-align: center;
 }
 
 .shop__address {
     margin-bottom: 0px;
-    margin-top: 0px;
-    text-decoration: none;
+    margin-top: 10px;
 }
 
 .shop__links {
+    bottom: 0px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    width: 97%;
 }
 
 .shop__name {
@@ -30,12 +34,4 @@
 
 .shop__phone {
     margin-top: 0px;
-}
-
-.shop__email {
-    text-decoration: none;
-}
-
-.shop__menu {
-    text-decoration: none;
 }
